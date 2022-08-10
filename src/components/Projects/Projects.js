@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import emotion from "../../Assets/Projects/piiquante.png";
 import editor from "../../Assets/Projects/ohmyfood.png";
 import booki from "../../Assets/Projects/booki.png";
 import suicide from "../../Assets/Projects/kanap.png";
@@ -26,20 +26,9 @@ function Projects() {
               imgPath={booki}
               isBlog={false}
               title="Booki"
-              description="Low Cost AirBnB Template."
+              description="PROJET 2 BOOKI"
               ghLink="https://github.com/OliJah/Booki-DW-P2"
               demoLink="https://olijah.github.io/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="La-Chouette-Agence"
-              description="PROJET 4 La Chouette Agence"
-              ghLink="https://github.com/OliJah/LaChouetteAgenceNew"
-              demoLink="https://olijah.github.io/LaChouetteAgenceNew/"
             />
           </Col>
 
@@ -48,9 +37,20 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="OhMyFood"
-              description="PROJET 3 OHMYFOOD"
+              description="PROJET 3 OhMyFood"
               ghLink="https://github.com/OliJah/ohmyfood"
-              demoLink="https://olijah.github.io/ohmyfood/"              
+              demoLink="https://olijah.github.io/ohmyfood/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="La Chouette Agence"
+              description="PROJET 4 La Chouette Agence"
+              ghLink="https://github.com/OliJah/LaChouetteAgenceNew"
+              demoLink="https://olijah.github.io/LaChouetteAgenceNew/"              
             />
           </Col>
 
@@ -69,10 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Piiquante"
+              description="PROJET 6 PIIQUANTE"
+              ghLink="https://github.com/OliJah/Piiquante"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
